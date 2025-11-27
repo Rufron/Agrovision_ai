@@ -1,4 +1,4 @@
-🌾 AgroVision — AI-Powered Agricultural Insights
+<!-- 🌾 AgroVision — AI-Powered Agricultural Insights
 
 AgroVision is a web application that leverages Machine Learning, real-time weather data, and Supabase Edge Functions to provide actionable agricultural insights.
 Built using Vite + React, the project aims to support farmers, researchers, and agritech teams with smart predictions, automated insights, and accessible data visualizations.
@@ -136,4 +136,116 @@ Dashboard visualizes responses, predictions, insights, and forecasts
 Name	Role
 Brian Kipchumba	Frontend Development
 Faith Kiplagat	Backend & Database Integration
-Borchar Gatwetch	Machine Learning & AI Integration
+Borchar Gatwetch	Machine Learning & AI Integration -->
+
+
+
+🌾 AgroVision — AI Agricultural Insights
+
+Web app providing ML-based crop predictions, weather forecasts, and AI-generated farming insights.
+Built with Vite + React + TypeScript + Supabase.
+
+Live: agrovision-2.vercel.app
+
+Overview (Canva): Link
+
+🗂 Project Structure
+agrovision_ai/
+├── backend/      # ML/Backend service
+├── public/       # Static assets
+├── src/          # Frontend (React + Vite)
+├── supabase/     # Supabase functions
+├── .env          # Environment variables
+├── .gitignore
+├── README.md
+├── SETUP_DASHBOARD_TABLES.sql
+├── index.html
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+└── tsconfig.*.json
+
+🚀 Features
+
+Predictive Analysis: Upload image/data → ML predictions
+
+Weather Forecasts: 5-day real-time updates
+
+AI Insights: Actionable recommendations via Supabase Edge
+
+Fast UI: Vite + React + Tailwind + ShadCN
+
+Responsive: Desktop & mobile
+
+Secure: API keys in .env
+
+🛠 Setup
+1️⃣ Prerequisites
+
+Node.js v18+
+
+npm or yarn
+
+Supabase project
+
+Hugging Face API key
+
+OpenWeather API key
+
+2️⃣ Install
+git clone https://github.com/Rufron/agrovision_ai.git
+cd agrovision_ai
+npm install
+# or
+yarn install
+
+3️⃣ Environment
+
+Create .env in root:
+
+VITE_API_BASE_URL="YOUR_ML_BASE_URL"
+NEXT_PUBLIC_WEATHER_API_KEY="YOUR_OPENWEATHER_API_KEY"
+VITE_HF_API_KEY="YOUR_HUGGING_FACE_API_KEY"
+VITE_SUPABASE_URL="https://YOUR_SUPABASE_URL.supabase.co"
+VITE_SUPABASE_PUBLISHABLE_KEY="YOUR_SUPABASE_KEY"
+
+
+Ensure .env is in .gitignore
+
+4️⃣ Run Locally
+npm run dev
+# or
+yarn dev
+
+
+Open http://localhost:3000
+
+⚙️ Usage
+
+Prediction: Upload data → ML analysis
+
+Weather: Check forecasts
+
+Insights: Generate AI recommendations
+
+Dashboard: View predictions, insights, and forecasts
+
+🧭 Roadmap
+
+Improve ML accuracy
+
+Add authentication (Supabase Auth)
+
+Save predictions & insights
+
+Multi-language support
+
+Better UI (charts, export, animations)
+
+Offline PWA mode
+
+👥 Contributors
+Name	Role
+Brian Kipchumba	Frontend
+Faith Kiplagat	Backend & DB
+Borchar Gatwetch	ML & AI
