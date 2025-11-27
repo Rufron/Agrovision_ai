@@ -140,16 +140,21 @@ Borchar Gatwetch	Machine Learning & AI Integration -->
 
 
 
-🌾 AgroVision — AI Agricultural Insights
+### 🌾 AgroVision — AI Agricultural Insights
 
 Web app providing ML-based crop predictions, weather forecasts, and AI-generated farming insights.
 Built with Vite + React + TypeScript + Supabase.
 
-Live: agrovision-2.vercel.app
+Live: [agrovision-2.vercel.app](https://agrovision-2.vercel.app/)
 
-Overview (Canva): Link
+Overview (Canva): https://www.canva.com/design/DAG1ar8opDo/1MrMNsOWD2ZOLpB_9igLRg/edit
 
-🗂 Project Structure
+## 📷 Demo / Screenshots
+
+![Screenshot](./image.png)
+
+## 🗂 Project Structure
+``` bash
 agrovision_ai/
 ├── backend/      # ML/Backend service
 ├── public/       # Static assets
@@ -164,23 +169,25 @@ agrovision_ai/
 ├── vite.config.ts
 ├── tailwind.config.ts
 └── tsconfig.*.json
+```
 
-🚀 Features
+## 🚀 Features
 
-Predictive Analysis: Upload image/data → ML predictions
+- Predictive Analysis: Upload image/data → ML predictions
 
-Weather Forecasts: 5-day real-time updates
+- Weather Forecasts: 5-day real-time updates
 
-AI Insights: Actionable recommendations via Supabase Edge
+- AI Insights: Actionable recommendations via Supabase Edge
 
-Fast UI: Vite + React + Tailwind + ShadCN
+- Fast UI: Vite + React + Tailwind + ShadCN
 
-Responsive: Desktop & mobile
+- Responsive: Desktop & mobile
 
-Secure: API keys in .env
+- Secure: API keys in .env
 
-🛠 Setup
-1️⃣ Prerequisites
+## 🛠 Setup
+1. Prerequisites
+``` bash
 
 Node.js v18+
 
@@ -191,36 +198,45 @@ Supabase project
 Hugging Face API key
 
 OpenWeather API key
+```
 
-2️⃣ Install
+2. Install
+``` bash
 git clone https://github.com/Rufron/agrovision_ai.git
 cd agrovision_ai
 npm install
-# or
+or
 yarn install
 
-3️⃣ Environment
+```
+3. Environment
 
 Create .env in root:
+``` bash
 
 VITE_API_BASE_URL="YOUR_ML_BASE_URL"
 NEXT_PUBLIC_WEATHER_API_KEY="YOUR_OPENWEATHER_API_KEY"
 VITE_HF_API_KEY="YOUR_HUGGING_FACE_API_KEY"
 VITE_SUPABASE_URL="https://YOUR_SUPABASE_URL.supabase.co"
 VITE_SUPABASE_PUBLISHABLE_KEY="YOUR_SUPABASE_KEY"
+```
 
 
 Ensure .env is in .gitignore
 
-4️⃣ Run Locally
+4. Run Locally
+``` bash
 npm run dev
-# or
+or
 yarn dev
-
+```
+then
+``` bash
 
 Open http://localhost:3000
+```
 
-⚙️ Usage
+## ⚙️ Usage
 
 Prediction: Upload data → ML analysis
 
@@ -230,22 +246,19 @@ Insights: Generate AI recommendations
 
 Dashboard: View predictions, insights, and forecasts
 
-🧭 Roadmap
+## 🧭 Future Roadmap 
 
-Improve ML accuracy
+1. Improve ML accuracy
 
-Add authentication (Supabase Auth)
 
-Save predictions & insights
+2. Multi-language support
 
-Multi-language support
+3. Better UI (charts, export, animations)
 
-Better UI (charts, export, animations)
+4. Offline PWA mode
 
-Offline PWA mode
-
-👥 Contributors
+## 👥 Contributors
 Name	Role
-Brian Kipchumba	Frontend
-Faith Kiplagat	Backend & DB
-Borchar Gatwetch	ML & AI
+1. Brian Kipchumba - Frontend & Ai integration.
+2. Faith Kiplagat - Backend & DB.
+3. Borchar Gatwetch	- Frontend & Machine Learning.
